@@ -10,7 +10,6 @@ import lombok.Data;
 @Data
 public class Users {
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String name;
     private int age;
@@ -53,5 +52,8 @@ public class Users {
 	}
 	public void setPassword(String password) {
 		this.password = password;
+	}
+	public Users() {
+		super();
 	}
 }
