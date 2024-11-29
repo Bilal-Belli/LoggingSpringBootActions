@@ -48,22 +48,59 @@
     </div>
     <script>
         function navigateWithInput_1() {
-            // Get the associated input value
             const input_1 = document.getElementById(`input_1`);
             const inputValue = input_1.value;
 
-            // Validate the input
             if (inputValue === "" || isNaN(inputValue)) {
                 alert("Please enter a valid number.");
                 input_1.focus();
                 return false;
             }
 
-            // Construct the URL and redirect
-            const targetUrl = `/products/edit/${inputValue}`;
-            window.location.href = targetUrl;
-            return false; // Prevent default link behavior
+            fetch(`/products/${inputValue}`)
+                .then((response) => {
+                    if (!response.ok) {
+                        throw new Error(`Product with ID ${inputValue} not found.`);
+                    }
+                    return response.json();
+                })
+                .then((data) => {
+                    const productInfo = `
+                <div>
+                    <strong>ID:</strong> ${data.id}<br>
+                    <strong>Name:</strong> ${data.name}<br>
+                    <strong>Price:</strong> ${data.price}<br>
+                    <strong>Expiration Date:</strong> ${data.expirationDate}<br>
+                </div>
+            `;
+                    showPopup(productInfo);
+                })
+                .catch((error) => {
+                    alert(error.message);
+                });
         }
+
+        function showPopup(content) {
+            const popup = document.createElement('div');
+            popup.innerHTML = content;
+            popup.style.position = 'fixed';
+            popup.style.top = '50%';
+            popup.style.left = '50%';
+            popup.style.transform = 'translate(-50%, -50%)';
+            popup.style.padding = '20px';
+            popup.style.backgroundColor = 'white';
+            popup.style.border = '1px solid black';
+            popup.style.zIndex = 1000;
+
+            const closeButton = document.createElement('button');
+            closeButton.textContent = 'Close';
+            closeButton.onclick = () => document.body.removeChild(popup);
+
+            popup.appendChild(closeButton);
+            document.body.appendChild(popup);
+        }
+    </script>
+    <script>
         function navigateWithInput_2() {
             // Get the associated input value
             const input_2 = document.getElementById(`input_2`);
@@ -81,6 +118,8 @@
             window.location.href = targetUrl;
             return false; // Prevent default link behavior
         }
+    </script>
+    <script>
         function navigateWithInput_3() {
             // Get the associated input value
             const input_3 = document.getElementById(`input_3`);

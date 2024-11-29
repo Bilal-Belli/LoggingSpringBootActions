@@ -2,6 +2,7 @@ package com.example.demo;
 
 import java.util.List;
 
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
 
 @Service
@@ -24,32 +25,21 @@ public class UserService {
     }
     
     public boolean authenticateUser(String email, String password) {
+        BCryptPasswordEncoder encoder = new BCryptPasswordEncoder();//i have added this to encrypt password
         return userRepository.findByEmail(email)
-                .map(user -> user.getPassword().equals(password)) // Replace with encoded password check if using encryption
+                .map(user -> encoder.matches(password, user.getPassword())) // Replace with encoded password check if using encryption
                 .orElse(false);
+        // encoder.matches(password, user.getPassword()) //i have replaced : user.getPassword().equals(password) by to encrypt password
+        //return encoder.matches(password, user.getPassword());
     }
 
     public Users addUser(Users user) {
         if (userRepository.existsById(user.getId())) {
             throw new RuntimeException("User already exists with ID: " + user.getId());
         }
+
+        BCryptPasswordEncoder encoder = new BCryptPasswordEncoder(); //i have added this to encrypt password
+        user.setPassword(encoder.encode(user.getPassword()));//i have added this to encrypt password
         return userRepository.save(user);
-    }
-
-    public void deleteUsers(Long id) {
-        if (!userRepository.existsById(id)) {
-            throw new RuntimeException("User not found with ID: " + id);
-        }
-        userRepository.deleteById(id);
-    }
-
-    public Users updateProduct(Long id, Users updatedUser) {
-    	Users existingUser = userRepository.findById(id)
-                .orElseThrow(() -> new RuntimeException("User not found with ID: " + id));
-
-        existingUser.setName(updatedUser.getName());
-        existingUser.setAge(updatedUser.getAge());
-        existingUser.setPassword(updatedUser.getPassword());
-        return userRepository.save(existingUser);
     }
 }
