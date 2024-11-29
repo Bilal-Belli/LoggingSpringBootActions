@@ -14,6 +14,18 @@
         <div th:if="${error}" class="alert alert-danger" role="alert">[[${error}]]</div>
 
         <a href="/products/add" class="btn btn-primary mb-3">Add Product</a>
+        <div class="input-group mb-3">
+            <input type="number" id="input_1" class="form-control" placeholder="Enter Product ID">
+            <button class="btn btn-primary" onclick="navigateWithInput_1()">Fetch</button>
+        </div>
+        <div class="input-group mb-3">
+            <input type="number" id="input_2" class="form-control" placeholder="Enter Product ID">
+            <button class="btn btn-warning" onclick="navigateWithInput_2()">Edit</button>
+        </div>
+        <div class="input-group mb-3">
+            <input type="number" id="input_3" class="form-control" placeholder="Enter Product ID">
+            <button class="btn btn-danger" onclick="navigateWithInput_3()">Delete</button>
+        </div>
 
         <table class="table table-striped table-bordered">
             <thead class="thead-dark">
@@ -22,7 +34,6 @@
                     <th>Name</th>
                     <th>Price</th>
                     <th>Expiration Date</th>
-                    <th>Actions</th>
                 </tr>
             </thead>
             <tbody>
@@ -31,15 +42,63 @@
                     <td th:text="${product.name}"></td>
                     <td th:text="${product.price}"></td>
                     <td th:text="${product.expirationDate}"></td>
-                    <td>
-                        <a th:href="@{/products/edit/{id}(id=${product.id})}" class="btn btn-sm btn-warning">Edit</a>
-                        <a th:href="@{/products/delete/{id}(id=${product.id})}" class="btn btn-sm btn-danger" onclick="return confirm('Are you sure?')">Delete</a>
-                    </td>
                 </tr>
             </tbody>
         </table>
     </div>
+    <script>
+        function navigateWithInput_1() {
+            // Get the associated input value
+            const input_1 = document.getElementById(`input_1`);
+            const inputValue = input_1.value;
 
+            // Validate the input
+            if (inputValue === "" || isNaN(inputValue)) {
+                alert("Please enter a valid number.");
+                input_1.focus();
+                return false;
+            }
+
+            // Construct the URL and redirect
+            const targetUrl = `/products/edit/${inputValue}`;
+            window.location.href = targetUrl;
+            return false; // Prevent default link behavior
+        }
+        function navigateWithInput_2() {
+            // Get the associated input value
+            const input_2 = document.getElementById(`input_2`);
+            const inputValue = input_2.value;
+
+            // Validate the input
+            if (inputValue === "" || isNaN(inputValue)) {
+                alert("Please enter a valid number.");
+                input_2.focus();
+                return false;
+            }
+
+            // Construct the URL and redirect
+            const targetUrl = `/products/edit/${inputValue}`;
+            window.location.href = targetUrl;
+            return false; // Prevent default link behavior
+        }
+        function navigateWithInput_3() {
+            // Get the associated input value
+            const input_3 = document.getElementById(`input_3`);
+            const inputValue = input_3.value;
+
+            // Validate the input
+            if (inputValue === "" || isNaN(inputValue)) {
+                alert("Please enter a valid number.");
+                input_3.focus();
+                return false;
+            }
+
+            // Construct the URL and redirect
+            const targetUrl = `/products/delete/${inputValue}`;
+            window.location.href = targetUrl;
+            return false; // Prevent default link behavior
+        }
+    </script>
     <!-- Bootstrap JS (optional, for interactive components) -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
