@@ -12,8 +12,8 @@
 ## How to Run This Web Application
 1. Open your IDE (IntelliJ, SpringToolSuite4, or Eclipse).
 2. Download or clone this repository: `git clone https://github.com/Bilal-Belli/UxOjpKQvqEs3M.git`.
-3. Run the Spring Boot application (file named `DemoApplication.java`).
 4. Create the database schema in PostgreSQL by executing the script `databaseCreation.sql`.
+4. Run the Spring Boot application (file named `DemoApplication.java`).
 5. Open your browser and go to the URL: `http://localhost:8000/`.
 
 ## How to Use This Web Application
