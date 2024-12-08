@@ -1,0 +1,51 @@
+[ {
+  "userId" : 16,
+  "readCount" : 11,
+  "writeCount" : 10,
+  "searchCount" : 4
+}, {
+  "userId" : 17,
+  "readCount" : 16,
+  "writeCount" : 13,
+  "searchCount" : 5
+}, {
+  "userId" : 18,
+  "readCount" : 15,
+  "writeCount" : 11,
+  "searchCount" : 11
+}, {
+  "userId" : 19,
+  "readCount" : 11,
+  "writeCount" : 11,
+  "searchCount" : 8
+}, {
+  "userId" : 20,
+  "readCount" : 13,
+  "writeCount" : 10,
+  "searchCount" : 8
+}, {
+  "userId" : 10,
+  "readCount" : 4,
+  "writeCount" : 3,
+  "searchCount" : 1
+}, {
+  "userId" : 11,
+  "readCount" : 14,
+  "writeCount" : 11,
+  "searchCount" : 7
+}, {
+  "userId" : 13,
+  "readCount" : 11,
+  "writeCount" : 9,
+  "searchCount" : 7
+}, {
+  "userId" : 14,
+  "readCount" : 12,
+  "writeCount" : 10,
+  "searchCount" : 4
+}, {
+  "userId" : 15,
+  "readCount" : 12,
+  "writeCount" : 9,
+  "searchCount" : 9
+} ]
