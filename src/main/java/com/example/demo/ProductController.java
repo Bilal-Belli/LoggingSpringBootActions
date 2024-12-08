@@ -13,8 +13,6 @@ import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
 import org.springframework.ui.Model;
 
-import java.util.Optional;
-
 @Controller
 @RequestMapping("/products")
 public class ProductController {

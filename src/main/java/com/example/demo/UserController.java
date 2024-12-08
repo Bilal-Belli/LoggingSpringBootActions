@@ -4,11 +4,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
-import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
-
+import jakarta.servlet.http.HttpSession;
 import org.springframework.ui.Model;
 
 @Controller
@@ -30,10 +29,12 @@ public class UserController {
     }
     
     @PostMapping("/login")
-    public String login(@ModelAttribute Users user, RedirectAttributes redirectAttributes) {
+    public String login(@ModelAttribute Users user, HttpSession session, RedirectAttributes redirectAttributes) {
         try {
             boolean isAuthenticated = userService.authenticateUser(user.getEmail(), user.getPassword());
             if (isAuthenticated) {
+                Users authenticatedUser = userService.getUserByEmail(user.getEmail());
+                session.setAttribute("userId", authenticatedUser.getId());
                 redirectAttributes.addFlashAttribute("message", "User connected successfully!");
                 return "redirect:/products";
             } else {
@@ -50,7 +51,7 @@ public class UserController {
     public String processSignup(Users user, RedirectAttributes redirectAttributes) {
         try {
             // Save the user to the database
-            userService.addUser(user); // Ensure `saveUser` method hashes passwords if necessary
+            userService.addUser(user);
             redirectAttributes.addFlashAttribute("message", "Account created successfully!");
             return "redirect:/users/login"; // Redirect to login after successful signup
         } catch (Exception e) {
