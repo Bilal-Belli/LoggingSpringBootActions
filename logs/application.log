@@ -1,0 +1,489 @@
+2024-12-08T21:04:03.572+01:00  INFO 9808 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 23.0.1 with PID 9808 (C:\Users\Hp\OneDrive\Bureau\TP3RESTRICTION\target\classes started by Hp in C:\Users\Hp\OneDrive\Bureau\TP3RESTRICTION)
+2024-12-08T21:04:03.575+01:00  INFO 9808 --- [demo] [restartedMain] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2024-12-08T21:04:03.681+01:00  INFO 9808 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-08T21:04:03.683+01:00  INFO 9808 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-08T21:04:05.193+01:00  INFO 9808 --- [demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-08T21:04:05.308+01:00  INFO 9808 --- [demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 100 ms. Found 2 JPA repository interfaces.
+2024-12-08T21:04:06.759+01:00  INFO 9808 --- [demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8000 (http)
+2024-12-08T21:04:06.805+01:00  INFO 9808 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-08T21:04:06.806+01:00  INFO 9808 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.31]
+2024-12-08T21:04:06.967+01:00  INFO 9808 --- [demo] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-08T21:04:06.968+01:00  INFO 9808 --- [demo] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3284 ms
+2024-12-08T21:04:07.411+01:00  INFO 9808 --- [demo] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-08T21:04:07.646+01:00  INFO 9808 --- [demo] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-12-08T21:04:07.767+01:00  INFO 9808 --- [demo] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-12-08T21:04:08.570+01:00  INFO 9808 --- [demo] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-08T21:04:08.651+01:00  INFO 9808 --- [demo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-12-08T21:04:09.127+01:00  INFO 9808 --- [demo] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1b3f7f02
+2024-12-08T21:04:09.130+01:00  INFO 9808 --- [demo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-12-08T21:04:11.605+01:00  INFO 9808 --- [demo] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-08T21:04:11.829+01:00  INFO 9808 --- [demo] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-08T21:04:12.600+01:00  WARN 9808 --- [demo] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-08T21:04:13.352+01:00  WARN 9808 --- [demo] [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 9bad5749-aa1e-49f5-b474-03cf9bded601
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-12-08T21:04:13.379+01:00  INFO 9808 --- [demo] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2024-12-08T21:04:13.646+01:00  INFO 9808 --- [demo] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-12-08T21:04:13.712+01:00  INFO 9808 --- [demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8000 (http) with context path '/'
+2024-12-08T21:04:13.730+01:00  INFO 9808 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 10.993 seconds (process running for 13.591)
+2024-12-08T21:04:30.761+01:00  INFO 9808 --- [demo] [http-nio-8000-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-08T21:04:30.762+01:00  INFO 9808 --- [demo] [http-nio-8000-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-12-08T21:04:30.765+01:00  INFO 9808 --- [demo] [http-nio-8000-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2024-12-08T21:05:37.315+01:00  INFO 9808 --- [demo] [http-nio-8000-exec-6] com.example.demo.UserService             : Operation=WRITE, Entity=Users, Action=Add, UserId=10
+2024-12-08T21:05:56.805+01:00  INFO 9808 --- [demo] [http-nio-8000-exec-10] com.example.demo.UserService             : Operation=WRITE, Entity=Users, Action=Add, UserId=11
+2024-12-08T21:06:14.314+01:00  INFO 9808 --- [demo] [http-nio-8000-exec-4] com.example.demo.UserService             : Operation=WRITE, Entity=Users, Action=Add, UserId=13
+2024-12-08T21:06:41.893+01:00  INFO 9808 --- [demo] [http-nio-8000-exec-8] com.example.demo.UserService             : Operation=WRITE, Entity=Users, Action=Add, UserId=14
+2024-12-08T21:07:03.336+01:00  INFO 9808 --- [demo] [http-nio-8000-exec-2] com.example.demo.UserService             : Operation=WRITE, Entity=Users, Action=Add, UserId=15
+2024-12-08T21:07:20.820+01:00  INFO 9808 --- [demo] [http-nio-8000-exec-6] com.example.demo.UserService             : Operation=WRITE, Entity=Users, Action=Add, UserId=16
+2024-12-08T21:07:37.222+01:00  INFO 9808 --- [demo] [http-nio-8000-exec-10] com.example.demo.UserService             : Operation=WRITE, Entity=Users, Action=Add, UserId=17
+2024-12-08T21:07:53.168+01:00  INFO 9808 --- [demo] [http-nio-8000-exec-4] com.example.demo.UserService             : Operation=WRITE, Entity=Users, Action=Add, UserId=18
+2024-12-08T21:08:13.157+01:00  INFO 9808 --- [demo] [http-nio-8000-exec-8] com.example.demo.UserService             : Operation=WRITE, Entity=Users, Action=Add, UserId=19
+2024-12-08T21:08:35.987+01:00  INFO 9808 --- [demo] [http-nio-8000-exec-2] com.example.demo.UserService             : Operation=WRITE, Entity=Users, Action=Add, UserId=20
+2024-12-08T21:11:14.273+01:00  INFO 9808 --- [demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-12-08T21:11:14.316+01:00  INFO 9808 --- [demo] [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-08T21:11:14.329+01:00  INFO 9808 --- [demo] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-12-08T21:11:14.343+01:00  INFO 9808 --- [demo] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-12-08T21:11:14.679+01:00  INFO 9808 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 23.0.1 with PID 9808 (C:\Users\Hp\OneDrive\Bureau\TP3RESTRICTION\target\classes started by Hp in C:\Users\Hp\OneDrive\Bureau\TP3RESTRICTION)
+2024-12-08T21:11:14.679+01:00  INFO 9808 --- [demo] [restartedMain] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2024-12-08T21:11:14.966+01:00  INFO 9808 --- [demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-08T21:11:14.977+01:00  INFO 9808 --- [demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 11 ms. Found 2 JPA repository interfaces.
+2024-12-08T21:11:15.159+01:00  INFO 9808 --- [demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8000 (http)
+2024-12-08T21:11:15.162+01:00  INFO 9808 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-08T21:11:15.163+01:00  INFO 9808 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.31]
+2024-12-08T21:11:15.196+01:00  INFO 9808 --- [demo] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-08T21:11:15.196+01:00  INFO 9808 --- [demo] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 513 ms
+2024-12-08T21:11:15.262+01:00  INFO 9808 --- [demo] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-08T21:11:15.267+01:00  INFO 9808 --- [demo] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-12-08T21:11:15.281+01:00  INFO 9808 --- [demo] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-08T21:11:15.282+01:00  INFO 9808 --- [demo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2024-12-08T21:11:15.355+01:00  INFO 9808 --- [demo] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection org.postgresql.jdbc.PgConnection@1a8ca6a7
+2024-12-08T21:11:15.356+01:00  INFO 9808 --- [demo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2024-12-08T21:11:15.444+01:00  INFO 9808 --- [demo] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-08T21:11:15.481+01:00  INFO 9808 --- [demo] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-08T21:11:15.644+01:00  WARN 9808 --- [demo] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-08T21:11:15.839+01:00  WARN 9808 --- [demo] [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: e32ea278-2cf9-4327-bb43-b1738e93e186
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-12-08T21:11:15.841+01:00  INFO 9808 --- [demo] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2024-12-08T21:11:15.889+01:00  INFO 9808 --- [demo] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-12-08T21:11:15.908+01:00  INFO 9808 --- [demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8000 (http) with context path '/'
+2024-12-08T21:11:15.914+01:00  INFO 9808 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 1.333 seconds (process running for 435.775)
+2024-12-08T21:11:15.918+01:00  INFO 9808 --- [demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-12-08T21:12:28.208+01:00  INFO 9808 --- [demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-12-08T21:12:28.231+01:00  INFO 9808 --- [demo] [Thread-7] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-08T21:12:28.233+01:00  INFO 9808 --- [demo] [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2024-12-08T21:12:28.246+01:00  INFO 9808 --- [demo] [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2024-12-08T21:12:28.534+01:00  INFO 9808 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 23.0.1 with PID 9808 (C:\Users\Hp\OneDrive\Bureau\TP3RESTRICTION\target\classes started by Hp in C:\Users\Hp\OneDrive\Bureau\TP3RESTRICTION)
+2024-12-08T21:12:28.535+01:00  INFO 9808 --- [demo] [restartedMain] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2024-12-08T21:12:28.853+01:00  INFO 9808 --- [demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-08T21:12:28.866+01:00  INFO 9808 --- [demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 12 ms. Found 2 JPA repository interfaces.
+2024-12-08T21:12:29.011+01:00  INFO 9808 --- [demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8000 (http)
+2024-12-08T21:12:29.012+01:00  INFO 9808 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-08T21:12:29.012+01:00  INFO 9808 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.31]
+2024-12-08T21:12:29.043+01:00  INFO 9808 --- [demo] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-08T21:12:29.043+01:00  INFO 9808 --- [demo] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 501 ms
+2024-12-08T21:12:29.103+01:00  INFO 9808 --- [demo] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-08T21:12:29.109+01:00  INFO 9808 --- [demo] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-12-08T21:12:29.125+01:00  INFO 9808 --- [demo] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-08T21:12:29.127+01:00  INFO 9808 --- [demo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2024-12-08T21:12:29.317+01:00  INFO 9808 --- [demo] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Added connection org.postgresql.jdbc.PgConnection@4e229179
+2024-12-08T21:12:29.318+01:00  INFO 9808 --- [demo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2024-12-08T21:12:29.418+01:00  INFO 9808 --- [demo] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-08T21:12:29.458+01:00  INFO 9808 --- [demo] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-08T21:12:29.595+01:00  WARN 9808 --- [demo] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-08T21:12:29.747+01:00  WARN 9808 --- [demo] [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 93f59f97-d484-4b6b-bfc3-0b003f4c5821
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-12-08T21:12:29.749+01:00  INFO 9808 --- [demo] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2024-12-08T21:12:29.795+01:00  INFO 9808 --- [demo] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-12-08T21:12:29.817+01:00  INFO 9808 --- [demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8000 (http) with context path '/'
+2024-12-08T21:12:29.824+01:00  INFO 9808 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 1.388 seconds (process running for 509.684)
+2024-12-08T21:12:29.825+01:00  INFO 9808 --- [demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-12-08T22:05:33.981+01:00  INFO 9808 --- [demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-12-08T22:05:33.998+01:00  INFO 9808 --- [demo] [Thread-11] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-08T22:05:33.999+01:00  INFO 9808 --- [demo] [Thread-11] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2024-12-08T22:05:34.002+01:00  INFO 9808 --- [demo] [Thread-11] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+2024-12-08T22:05:34.083+01:00  INFO 9808 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 23.0.1 with PID 9808 (C:\Users\Hp\OneDrive\Bureau\TP3RESTRICTION\target\classes started by Hp in C:\Users\Hp\OneDrive\Bureau\TP3RESTRICTION)
+2024-12-08T22:05:34.084+01:00  INFO 9808 --- [demo] [restartedMain] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2024-12-08T22:05:34.211+01:00  INFO 9808 --- [demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-08T22:05:34.217+01:00  INFO 9808 --- [demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5 ms. Found 2 JPA repository interfaces.
+2024-12-08T22:05:34.303+01:00  INFO 9808 --- [demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8000 (http)
+2024-12-08T22:05:34.305+01:00  INFO 9808 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-08T22:05:34.306+01:00  INFO 9808 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.31]
+2024-12-08T22:05:34.326+01:00  INFO 9808 --- [demo] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-08T22:05:34.326+01:00  INFO 9808 --- [demo] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 240 ms
+2024-12-08T22:05:34.359+01:00  INFO 9808 --- [demo] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-08T22:05:34.361+01:00  INFO 9808 --- [demo] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-12-08T22:05:34.368+01:00  INFO 9808 --- [demo] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-08T22:05:34.369+01:00  INFO 9808 --- [demo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Starting...
+2024-12-08T22:05:34.521+01:00  INFO 9808 --- [demo] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-4 - Added connection org.postgresql.jdbc.PgConnection@331536b
+2024-12-08T22:05:34.521+01:00  INFO 9808 --- [demo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Start completed.
+2024-12-08T22:05:34.564+01:00  INFO 9808 --- [demo] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-08T22:05:34.580+01:00  INFO 9808 --- [demo] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-08T22:05:34.666+01:00  WARN 9808 --- [demo] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-08T22:05:34.757+01:00  WARN 9808 --- [demo] [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 99da213a-1a24-4f18-b3bd-1cb9610b3753
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-12-08T22:05:34.757+01:00  INFO 9808 --- [demo] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2024-12-08T22:05:34.784+01:00  INFO 9808 --- [demo] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-12-08T22:05:34.794+01:00  INFO 9808 --- [demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8000 (http) with context path '/'
+2024-12-08T22:05:34.797+01:00  INFO 9808 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 0.737 seconds (process running for 3694.658)
+2024-12-08T22:05:34.798+01:00  INFO 9808 --- [demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-12-08T22:07:49.420+01:00  INFO 9808 --- [demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-12-08T22:07:49.431+01:00  INFO 9808 --- [demo] [Thread-15] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-08T22:07:49.432+01:00  INFO 9808 --- [demo] [Thread-15] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown initiated...
+2024-12-08T22:07:49.440+01:00  INFO 9808 --- [demo] [Thread-15] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown completed.
+2024-12-08T22:07:49.527+01:00  INFO 9808 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 23.0.1 with PID 9808 (C:\Users\Hp\OneDrive\Bureau\TP3RESTRICTION\target\classes started by Hp in C:\Users\Hp\OneDrive\Bureau\TP3RESTRICTION)
+2024-12-08T22:07:49.528+01:00  INFO 9808 --- [demo] [restartedMain] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2024-12-08T22:07:49.669+01:00  INFO 9808 --- [demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-08T22:07:49.677+01:00  INFO 9808 --- [demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 7 ms. Found 2 JPA repository interfaces.
+2024-12-08T22:07:49.756+01:00  INFO 9808 --- [demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8000 (http)
+2024-12-08T22:07:49.757+01:00  INFO 9808 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-08T22:07:49.757+01:00  INFO 9808 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.31]
+2024-12-08T22:07:49.774+01:00  INFO 9808 --- [demo] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-08T22:07:49.774+01:00  INFO 9808 --- [demo] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 245 ms
+2024-12-08T22:07:49.802+01:00  INFO 9808 --- [demo] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-08T22:07:49.805+01:00  INFO 9808 --- [demo] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-12-08T22:07:49.812+01:00  INFO 9808 --- [demo] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-08T22:07:49.813+01:00  INFO 9808 --- [demo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Starting...
+2024-12-08T22:07:49.962+01:00  INFO 9808 --- [demo] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-5 - Added connection org.postgresql.jdbc.PgConnection@5002dbe5
+2024-12-08T22:07:49.962+01:00  INFO 9808 --- [demo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Start completed.
+2024-12-08T22:07:50.007+01:00  INFO 9808 --- [demo] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-08T22:07:50.023+01:00  INFO 9808 --- [demo] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-08T22:07:50.123+01:00  WARN 9808 --- [demo] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-08T22:07:50.218+01:00  WARN 9808 --- [demo] [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: f5c1fdcb-2fe9-456e-a0ae-ac1044ac6a2c
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-12-08T22:07:50.219+01:00  INFO 9808 --- [demo] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2024-12-08T22:07:50.245+01:00  INFO 9808 --- [demo] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-12-08T22:07:50.254+01:00  INFO 9808 --- [demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8000 (http) with context path '/'
+2024-12-08T22:07:50.258+01:00  INFO 9808 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 0.76 seconds (process running for 3830.119)
+2024-12-08T22:07:50.259+01:00  INFO 9808 --- [demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-12-08T22:19:31.949+01:00  INFO 9808 --- [demo] [RMI TCP Connection(78)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2024-12-08T22:19:31.955+01:00  INFO 9808 --- [demo] [RMI TCP Connection(78)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-08T22:19:31.955+01:00  INFO 9808 --- [demo] [RMI TCP Connection(78)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown initiated...
+2024-12-08T22:19:31.957+01:00  INFO 9808 --- [demo] [RMI TCP Connection(78)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown completed.
+2024-12-08T22:19:36.890+01:00  INFO 10592 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 23.0.1 with PID 10592 (C:\Users\Hp\OneDrive\Bureau\TP3RESTRICTION\target\classes started by Hp in C:\Users\Hp\OneDrive\Bureau\TP3RESTRICTION)
+2024-12-08T22:19:36.892+01:00  INFO 10592 --- [demo] [restartedMain] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2024-12-08T22:19:36.946+01:00  INFO 10592 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-08T22:19:36.947+01:00  INFO 10592 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-08T22:19:37.466+01:00  INFO 10592 --- [demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-08T22:19:37.507+01:00  INFO 10592 --- [demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 36 ms. Found 2 JPA repository interfaces.
+2024-12-08T22:19:38.008+01:00  INFO 10592 --- [demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8000 (http)
+2024-12-08T22:19:38.021+01:00  INFO 10592 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-08T22:19:38.022+01:00  INFO 10592 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.31]
+2024-12-08T22:19:38.065+01:00  INFO 10592 --- [demo] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-08T22:19:38.066+01:00  INFO 10592 --- [demo] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1119 ms
+2024-12-08T22:19:38.217+01:00  INFO 10592 --- [demo] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-08T22:19:38.261+01:00  INFO 10592 --- [demo] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-12-08T22:19:38.290+01:00  INFO 10592 --- [demo] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-12-08T22:19:38.546+01:00  INFO 10592 --- [demo] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-08T22:19:38.572+01:00  INFO 10592 --- [demo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-12-08T22:19:38.833+01:00  INFO 10592 --- [demo] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@346f23e8
+2024-12-08T22:19:38.835+01:00  INFO 10592 --- [demo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-12-08T22:19:39.564+01:00  INFO 10592 --- [demo] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-08T22:19:39.611+01:00  INFO 10592 --- [demo] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-08T22:19:39.905+01:00  WARN 10592 --- [demo] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-08T22:19:40.195+01:00  WARN 10592 --- [demo] [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 2948e701-ea5c-4caf-a944-7abee1a8db36
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-12-08T22:19:40.206+01:00  INFO 10592 --- [demo] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2024-12-08T22:19:40.319+01:00  INFO 10592 --- [demo] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-12-08T22:19:40.346+01:00  INFO 10592 --- [demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8000 (http) with context path '/'
+2024-12-08T22:19:40.354+01:00  INFO 10592 --- [demo] [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 3.808 seconds (process running for 4.39)
+2024-12-08T22:19:47.536+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-08T22:19:47.536+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-12-08T22:19:47.537+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-12-08T22:20:32.020+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-7] com.example.demo.ProductService          : Operation=READ, Entity=Products, Action=FetchAll, UserId=10
+2024-12-08T22:20:45.181+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-8] com.example.demo.ProductService          : Operation=SEARCH, Entity=Products, Action=FetchById, ProductId=1, UserId=10
+2024-12-08T22:21:03.827+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-9] com.example.demo.ProductService          : Operation=READ, Entity=Products, Action=Fetch, ProductId=1, UserId=10
+2024-12-08T22:21:03.828+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-9] com.example.demo.ProductService          : Operation=WRITE, Entity=Products, Action=Update, UserId=10
+2024-12-08T22:21:03.879+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-10] com.example.demo.ProductService          : Operation=READ, Entity=Products, Action=FetchAll, UserId=10
+2024-12-08T22:21:17.435+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-2] com.example.demo.ProductService          : Operation=WRITE, Entity=Products, Action=Delete, UserId=10
+2024-12-08T22:21:17.459+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-1] com.example.demo.ProductService          : Operation=READ, Entity=Products, Action=FetchAll, UserId=10
+2024-12-08T22:21:35.990+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-6] com.example.demo.ProductService          : Operation=READ, Entity=Products, Action=FetchAll, UserId=11
+2024-12-08T22:22:03.039+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-8] com.example.demo.ProductService          : Operation=WRITE, Entity=Products, Action=Add, ProductId=99, UserId=11
+2024-12-08T22:22:03.062+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-9] com.example.demo.ProductService          : Operation=READ, Entity=Products, Action=FetchAll, UserId=11
+2024-12-08T22:22:21.916+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-2] com.example.demo.ProductService          : Operation=WRITE, Entity=Products, Action=Add, ProductId=98, UserId=11
+2024-12-08T22:22:21.929+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-1] com.example.demo.ProductService          : Operation=READ, Entity=Products, Action=FetchAll, UserId=11
+2024-12-08T22:22:53.911+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-4] com.example.demo.ProductService          : Operation=WRITE, Entity=Products, Action=Add, ProductId=97, UserId=11
+2024-12-08T22:22:53.928+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-5] com.example.demo.ProductService          : Operation=READ, Entity=Products, Action=FetchAll, UserId=11
+2024-12-08T22:23:12.600+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-8] com.example.demo.ProductService          : Operation=WRITE, Entity=Products, Action=Add, ProductId=96, UserId=11
+2024-12-08T22:23:12.611+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-9] com.example.demo.ProductService          : Operation=READ, Entity=Products, Action=FetchAll, UserId=11
+2024-12-08T22:23:25.829+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-2] com.example.demo.ProductService          : Operation=WRITE, Entity=Products, Action=Add, ProductId=95, UserId=11
+2024-12-08T22:23:25.842+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-1] com.example.demo.ProductService          : Operation=READ, Entity=Products, Action=FetchAll, UserId=11
+2024-12-08T22:23:42.727+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-3] com.example.demo.ProductService          : Operation=SEARCH, Entity=Products, Action=FetchById, ProductId=96, UserId=11
+2024-12-08T22:23:59.041+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-4] com.example.demo.ProductService          : Operation=READ, Entity=Products, Action=Fetch, ProductId=96, UserId=11
+2024-12-08T22:23:59.042+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-4] com.example.demo.ProductService          : Operation=WRITE, Entity=Products, Action=Update, UserId=11
+2024-12-08T22:23:59.058+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-5] com.example.demo.ProductService          : Operation=READ, Entity=Products, Action=FetchAll, UserId=11
+2024-12-08T22:24:04.124+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-6] com.example.demo.ProductService          : Operation=SEARCH, Entity=Products, Action=FetchById, ProductId=98, UserId=11
+2024-12-08T22:24:22.113+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-7] com.example.demo.ProductService          : Operation=READ, Entity=Products, Action=Fetch, ProductId=98, UserId=11
+2024-12-08T22:24:22.113+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-7] com.example.demo.ProductService          : Operation=WRITE, Entity=Products, Action=Update, UserId=11
+2024-12-08T22:24:22.126+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-8] com.example.demo.ProductService          : Operation=READ, Entity=Products, Action=FetchAll, UserId=11
+2024-12-08T22:24:25.515+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-9] com.example.demo.ProductService          : Operation=SEARCH, Entity=Products, Action=FetchById, ProductId=1, UserId=11
+2024-12-08T22:24:33.515+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-10] com.example.demo.ProductService          : Operation=READ, Entity=Products, Action=Fetch, ProductId=1, UserId=11
+2024-12-08T22:24:33.515+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-10] com.example.demo.ProductService          : Operation=WRITE, Entity=Products, Action=Update, UserId=11
+2024-12-08T22:24:33.528+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-2] com.example.demo.ProductService          : Operation=READ, Entity=Products, Action=FetchAll, UserId=11
+2024-12-08T22:24:47.305+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-1] com.example.demo.ProductService          : Operation=WRITE, Entity=Products, Action=Delete, UserId=11
+2024-12-08T22:24:47.315+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-3] com.example.demo.ProductService          : Operation=READ, Entity=Products, Action=FetchAll, UserId=11
+2024-12-08T22:24:53.437+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-4] com.example.demo.ProductService          : Operation=WRITE, Entity=Products, Action=Delete, UserId=11
+2024-12-08T22:24:53.454+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-5] com.example.demo.ProductService          : Operation=READ, Entity=Products, Action=FetchAll, UserId=11
+2024-12-08T22:25:08.290+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-6] com.example.demo.ProductService          : Operation=SEARCH, Entity=Products, Action=FetchById, ProductId=99, UserId=11
+2024-12-08T22:25:12.848+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-7] com.example.demo.ProductService          : Operation=SEARCH, Entity=Products, Action=FetchById, ProductId=96, UserId=11
+2024-12-08T22:25:17.641+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-8] com.example.demo.ProductService          : Operation=SEARCH, Entity=Products, Action=FetchById, ProductId=98, UserId=11
+2024-12-08T22:25:22.752+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-9] com.example.demo.ProductService          : Operation=SEARCH, Entity=Products, Action=FetchById, ProductId=1, UserId=11
+2024-12-08T22:25:36.937+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-3] com.example.demo.ProductService          : Operation=READ, Entity=Products, Action=FetchAll, UserId=13
+2024-12-08T22:25:47.793+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-4] com.example.demo.ProductService          : Operation=SEARCH, Entity=Products, Action=FetchById, ProductId=99, UserId=13
+2024-12-08T22:25:52.066+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-5] com.example.demo.ProductService          : Operation=SEARCH, Entity=Products, Action=FetchById, ProductId=98, UserId=13
+2024-12-08T22:25:57.256+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-6] com.example.demo.ProductService          : Operation=SEARCH, Entity=Products, Action=FetchById, ProductId=96, UserId=13
+2024-12-08T22:25:59.696+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-7] com.example.demo.ProductService          : Operation=SEARCH, Entity=Products, Action=FetchById, ProductId=1, UserId=13
+2024-12-08T22:26:03.048+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-8] com.example.demo.ProductService          : Operation=SEARCH, Entity=Products, Action=FetchById, ProductId=99, UserId=13
+2024-12-08T22:26:51.760+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-10] com.example.demo.ProductService          : Operation=WRITE, Entity=Products, Action=Add, ProductId=94, UserId=13
+2024-12-08T22:26:51.773+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-2] com.example.demo.ProductService          : Operation=READ, Entity=Products, Action=FetchAll, UserId=13
+2024-12-08T22:27:09.155+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-3] com.example.demo.ProductService          : Operation=WRITE, Entity=Products, Action=Add, ProductId=972, UserId=13
+2024-12-08T22:27:09.169+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-4] com.example.demo.ProductService          : Operation=READ, Entity=Products, Action=FetchAll, UserId=13
+2024-12-08T22:27:39.301+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-6] com.example.demo.ProductService          : Operation=WRITE, Entity=Products, Action=Add, ProductId=5237, UserId=13
+2024-12-08T22:27:39.316+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-7] com.example.demo.ProductService          : Operation=READ, Entity=Products, Action=FetchAll, UserId=13
+2024-12-08T22:28:02.591+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-9] com.example.demo.ProductService          : Operation=WRITE, Entity=Products, Action=Add, ProductId=8765, UserId=13
+2024-12-08T22:28:02.604+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-10] com.example.demo.ProductService          : Operation=READ, Entity=Products, Action=FetchAll, UserId=13
+2024-12-08T22:28:12.522+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-1] com.example.demo.ProductService          : Operation=WRITE, Entity=Products, Action=Add, ProductId=1232131, UserId=13
+2024-12-08T22:28:12.539+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-3] com.example.demo.ProductService          : Operation=READ, Entity=Products, Action=FetchAll, UserId=13
+2024-12-08T22:28:28.017+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-5] com.example.demo.ProductService          : Operation=WRITE, Entity=Products, Action=Add, ProductId=432423, UserId=13
+2024-12-08T22:28:28.031+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-6] com.example.demo.ProductService          : Operation=READ, Entity=Products, Action=FetchAll, UserId=13
+2024-12-08T22:28:45.889+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-7] com.example.demo.ProductService          : Operation=SEARCH, Entity=Products, Action=FetchById, ProductId=972, UserId=13
+2024-12-08T22:28:59.593+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-8] com.example.demo.ProductService          : Operation=READ, Entity=Products, Action=Fetch, ProductId=972, UserId=13
+2024-12-08T22:28:59.593+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-8] com.example.demo.ProductService          : Operation=WRITE, Entity=Products, Action=Update, UserId=13
+2024-12-08T22:28:59.605+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-9] com.example.demo.ProductService          : Operation=READ, Entity=Products, Action=FetchAll, UserId=13
+2024-12-08T22:29:07.888+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-10] com.example.demo.ProductService          : Operation=SEARCH, Entity=Products, Action=FetchById, ProductId=5237, UserId=13
+2024-12-08T22:29:21.153+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-2] com.example.demo.ProductService          : Operation=READ, Entity=Products, Action=Fetch, ProductId=5237, UserId=13
+2024-12-08T22:29:21.154+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-2] com.example.demo.ProductService          : Operation=WRITE, Entity=Products, Action=Update, UserId=13
+2024-12-08T22:29:21.168+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-1] com.example.demo.ProductService          : Operation=READ, Entity=Products, Action=FetchAll, UserId=13
+2024-12-08T22:29:41.044+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-6] com.example.demo.ProductService          : Operation=READ, Entity=Products, Action=FetchAll, UserId=14
+2024-12-08T22:29:51.877+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-7] com.example.demo.ProductService          : Operation=WRITE, Entity=Products, Action=Delete, UserId=14
+2024-12-08T22:29:51.889+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-8] com.example.demo.ProductService          : Operation=READ, Entity=Products, Action=FetchAll, UserId=14
+2024-12-08T22:29:55.792+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-9] com.example.demo.ProductService          : Operation=WRITE, Entity=Products, Action=Delete, UserId=14
+2024-12-08T22:29:55.804+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-10] com.example.demo.ProductService          : Operation=READ, Entity=Products, Action=FetchAll, UserId=14
+2024-12-08T22:30:00.850+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-2] com.example.demo.ProductService          : Operation=WRITE, Entity=Products, Action=Delete, UserId=14
+2024-12-08T22:30:00.862+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-1] com.example.demo.ProductService          : Operation=READ, Entity=Products, Action=FetchAll, UserId=14
+2024-12-08T22:30:10.226+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-3] com.example.demo.ProductService          : Operation=WRITE, Entity=Products, Action=Delete, UserId=14
+2024-12-08T22:30:10.240+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-4] com.example.demo.ProductService          : Operation=READ, Entity=Products, Action=FetchAll, UserId=14
+2024-12-08T22:30:16.984+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-5] com.example.demo.ProductService          : Operation=SEARCH, Entity=Products, Action=FetchById, ProductId=1, UserId=14
+2024-12-08T22:30:23.057+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-6] com.example.demo.ProductService          : Operation=SEARCH, Entity=Products, Action=FetchById, ProductId=99, UserId=14
+2024-12-08T22:30:54.611+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-8] com.example.demo.ProductService          : Operation=WRITE, Entity=Products, Action=Add, ProductId=95, UserId=14
+2024-12-08T22:30:54.625+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-9] com.example.demo.ProductService          : Operation=READ, Entity=Products, Action=FetchAll, UserId=14
+2024-12-08T22:31:18.950+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-2] com.example.demo.ProductService          : Operation=WRITE, Entity=Products, Action=Add, ProductId=100, UserId=14
+2024-12-08T22:31:18.961+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-1] com.example.demo.ProductService          : Operation=READ, Entity=Products, Action=FetchAll, UserId=14
+2024-12-08T22:31:38.166+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-4] com.example.demo.ProductService          : Operation=WRITE, Entity=Products, Action=Add, ProductId=101, UserId=14
+2024-12-08T22:31:38.177+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-5] com.example.demo.ProductService          : Operation=READ, Entity=Products, Action=FetchAll, UserId=14
+2024-12-08T22:31:51.487+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-6] com.example.demo.ProductService          : Operation=SEARCH, Entity=Products, Action=FetchById, ProductId=94, UserId=14
+2024-12-08T22:32:02.593+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-7] com.example.demo.ProductService          : Operation=READ, Entity=Products, Action=Fetch, ProductId=94, UserId=14
+2024-12-08T22:32:02.593+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-7] com.example.demo.ProductService          : Operation=WRITE, Entity=Products, Action=Update, UserId=14
+2024-12-08T22:32:02.606+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-8] com.example.demo.ProductService          : Operation=READ, Entity=Products, Action=FetchAll, UserId=14
+2024-12-08T22:32:15.836+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-9] com.example.demo.ProductService          : Operation=SEARCH, Entity=Products, Action=FetchById, ProductId=101, UserId=14
+2024-12-08T22:32:26.303+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-10] com.example.demo.ProductService          : Operation=READ, Entity=Products, Action=Fetch, ProductId=101, UserId=14
+2024-12-08T22:32:26.303+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-10] com.example.demo.ProductService          : Operation=WRITE, Entity=Products, Action=Update, UserId=14
+2024-12-08T22:32:26.315+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-2] com.example.demo.ProductService          : Operation=READ, Entity=Products, Action=FetchAll, UserId=14
+2024-12-08T22:32:47.489+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-5] com.example.demo.ProductService          : Operation=READ, Entity=Products, Action=FetchAll, UserId=15
+2024-12-08T22:32:50.370+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-6] com.example.demo.ProductService          : Operation=SEARCH, Entity=Products, Action=FetchById, ProductId=1, UserId=15
+2024-12-08T22:32:54.440+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-7] com.example.demo.ProductService          : Operation=SEARCH, Entity=Products, Action=FetchById, ProductId=99, UserId=15
+2024-12-08T22:32:58.657+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-8] com.example.demo.ProductService          : Operation=SEARCH, Entity=Products, Action=FetchById, ProductId=96, UserId=15
+2024-12-08T22:33:02.680+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-9] com.example.demo.ProductService          : Operation=SEARCH, Entity=Products, Action=FetchById, ProductId=98, UserId=15
+2024-12-08T22:33:08.945+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-10] com.example.demo.ProductService          : Operation=SEARCH, Entity=Products, Action=FetchById, ProductId=95, UserId=15
+2024-12-08T22:33:28.074+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-2] com.example.demo.ProductService          : Operation=SEARCH, Entity=Products, Action=FetchById, ProductId=94, UserId=15
+2024-12-08T22:33:38.739+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-1] com.example.demo.ProductService          : Operation=WRITE, Entity=Products, Action=Delete, UserId=15
+2024-12-08T22:33:38.753+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-3] com.example.demo.ProductService          : Operation=READ, Entity=Products, Action=FetchAll, UserId=15
+2024-12-08T22:33:46.878+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-4] com.example.demo.ProductService          : Operation=WRITE, Entity=Products, Action=Delete, UserId=15
+2024-12-08T22:33:46.891+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-5] com.example.demo.ProductService          : Operation=READ, Entity=Products, Action=FetchAll, UserId=15
+2024-12-08T22:33:51.569+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-6] com.example.demo.ProductService          : Operation=WRITE, Entity=Products, Action=Delete, UserId=15
+2024-12-08T22:33:51.579+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-7] com.example.demo.ProductService          : Operation=READ, Entity=Products, Action=FetchAll, UserId=15
+2024-12-08T22:34:18.856+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-9] com.example.demo.ProductService          : Operation=WRITE, Entity=Products, Action=Add, ProductId=2, UserId=15
+2024-12-08T22:34:18.870+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-10] com.example.demo.ProductService          : Operation=READ, Entity=Products, Action=FetchAll, UserId=15
+2024-12-08T22:34:51.663+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-1] com.example.demo.ProductService          : Operation=WRITE, Entity=Products, Action=Add, ProductId=3, UserId=15
+2024-12-08T22:34:51.675+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-3] com.example.demo.ProductService          : Operation=READ, Entity=Products, Action=FetchAll, UserId=15
+2024-12-08T22:35:03.111+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-4] com.example.demo.ProductService          : Operation=SEARCH, Entity=Products, Action=FetchById, ProductId=95, UserId=15
+2024-12-08T22:35:26.203+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-5] com.example.demo.ProductService          : Operation=READ, Entity=Products, Action=Fetch, ProductId=95, UserId=15
+2024-12-08T22:35:26.203+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-5] com.example.demo.ProductService          : Operation=WRITE, Entity=Products, Action=Update, UserId=15
+2024-12-08T22:35:26.216+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-6] com.example.demo.ProductService          : Operation=READ, Entity=Products, Action=FetchAll, UserId=15
+2024-12-08T22:35:35.697+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-7] com.example.demo.ProductService          : Operation=SEARCH, Entity=Products, Action=FetchById, ProductId=100, UserId=15
+2024-12-08T22:35:51.248+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-8] com.example.demo.ProductService          : Operation=READ, Entity=Products, Action=Fetch, ProductId=100, UserId=15
+2024-12-08T22:35:51.248+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-8] com.example.demo.ProductService          : Operation=WRITE, Entity=Products, Action=Update, UserId=15
+2024-12-08T22:35:51.262+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-9] com.example.demo.ProductService          : Operation=READ, Entity=Products, Action=FetchAll, UserId=15
+2024-12-08T22:36:00.942+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-10] com.example.demo.ProductService          : Operation=SEARCH, Entity=Products, Action=FetchById, ProductId=94, UserId=15
+2024-12-08T22:36:12.759+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-2] com.example.demo.ProductService          : Operation=READ, Entity=Products, Action=Fetch, ProductId=94, UserId=15
+2024-12-08T22:36:12.759+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-2] com.example.demo.ProductService          : Operation=WRITE, Entity=Products, Action=Update, UserId=15
+2024-12-08T22:36:12.772+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-1] com.example.demo.ProductService          : Operation=READ, Entity=Products, Action=FetchAll, UserId=15
+2024-12-08T22:36:35.184+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-6] com.example.demo.ProductService          : Operation=READ, Entity=Products, Action=FetchAll, UserId=16
+2024-12-08T22:36:47.675+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-7] com.example.demo.ProductService          : Operation=WRITE, Entity=Products, Action=Delete, UserId=16
+2024-12-08T22:36:47.688+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-8] com.example.demo.ProductService          : Operation=READ, Entity=Products, Action=FetchAll, UserId=16
+2024-12-08T22:36:57.576+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-9] com.example.demo.ProductService          : Operation=SEARCH, Entity=Products, Action=FetchById, ProductId=1, UserId=16
+2024-12-08T22:37:01.425+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-10] com.example.demo.ProductService          : Operation=SEARCH, Entity=Products, Action=FetchById, ProductId=2, UserId=16
+2024-12-08T22:37:03.857+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-2] com.example.demo.ProductService          : Operation=SEARCH, Entity=Products, Action=FetchById, ProductId=3, UserId=16
+2024-12-08T22:37:12.944+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-1] com.example.demo.ProductService          : Operation=SEARCH, Entity=Products, Action=FetchById, ProductId=100, UserId=16
+2024-12-08T22:37:22.523+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-3] com.example.demo.ProductService          : Operation=READ, Entity=Products, Action=Fetch, ProductId=100, UserId=16
+2024-12-08T22:37:22.523+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-3] com.example.demo.ProductService          : Operation=WRITE, Entity=Products, Action=Update, UserId=16
+2024-12-08T22:37:22.536+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-4] com.example.demo.ProductService          : Operation=READ, Entity=Products, Action=FetchAll, UserId=16
+2024-12-08T22:37:34.729+01:00  WARN 10592 --- [demo] [http-nio-8000-exec-6] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public java.lang.String com.example.demo.ProductController.addProduct(com.example.demo.Product,org.springframework.web.servlet.mvc.support.RedirectAttributes): [Field error in object 'product' on field 'expirationDate': rejected value [21312-03-12]; codes [typeMismatch.product.expirationDate,typeMismatch.expirationDate,typeMismatch.java.time.LocalDate,typeMismatch]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [product.expirationDate,expirationDate]; arguments []; default message [expirationDate]]; default message [Failed to convert property value of type 'java.lang.String' to required type 'java.time.LocalDate' for property 'expirationDate'; Failed to convert from type [java.lang.String] to type [java.time.LocalDate] for value [21312-03-12]]] ]
+2024-12-08T22:37:41.135+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-8] com.example.demo.ProductService          : Operation=WRITE, Entity=Products, Action=Add, ProductId=32132, UserId=16
+2024-12-08T22:37:41.148+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-9] com.example.demo.ProductService          : Operation=READ, Entity=Products, Action=FetchAll, UserId=16
+2024-12-08T22:37:51.161+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-2] com.example.demo.ProductService          : Operation=WRITE, Entity=Products, Action=Add, ProductId=222, UserId=16
+2024-12-08T22:37:51.172+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-1] com.example.demo.ProductService          : Operation=READ, Entity=Products, Action=FetchAll, UserId=16
+2024-12-08T22:38:02.167+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-4] com.example.demo.ProductService          : Operation=WRITE, Entity=Products, Action=Add, ProductId=333, UserId=16
+2024-12-08T22:38:02.179+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-5] com.example.demo.ProductService          : Operation=READ, Entity=Products, Action=FetchAll, UserId=16
+2024-12-08T22:38:11.675+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-7] com.example.demo.ProductService          : Operation=WRITE, Entity=Products, Action=Add, ProductId=444, UserId=16
+2024-12-08T22:38:11.690+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-8] com.example.demo.ProductService          : Operation=READ, Entity=Products, Action=FetchAll, UserId=16
+2024-12-08T22:38:21.020+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-10] com.example.demo.ProductService          : Operation=WRITE, Entity=Products, Action=Add, ProductId=555, UserId=16
+2024-12-08T22:38:21.033+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-2] com.example.demo.ProductService          : Operation=READ, Entity=Products, Action=FetchAll, UserId=16
+2024-12-08T22:38:29.437+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-3] com.example.demo.ProductService          : Operation=WRITE, Entity=Products, Action=Add, ProductId=666, UserId=16
+2024-12-08T22:38:29.450+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-4] com.example.demo.ProductService          : Operation=READ, Entity=Products, Action=FetchAll, UserId=16
+2024-12-08T22:38:36.865+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-6] com.example.demo.ProductService          : Operation=WRITE, Entity=Products, Action=Add, ProductId=77, UserId=16
+2024-12-08T22:38:36.873+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-7] com.example.demo.ProductService          : Operation=READ, Entity=Products, Action=FetchAll, UserId=16
+2024-12-08T22:38:52.498+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-2] com.example.demo.ProductService          : Operation=READ, Entity=Products, Action=FetchAll, UserId=17
+2024-12-08T22:38:58.593+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-1] com.example.demo.ProductService          : Operation=SEARCH, Entity=Products, Action=FetchById, ProductId=1, UserId=17
+2024-12-08T22:39:01.097+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-3] com.example.demo.ProductService          : Operation=SEARCH, Entity=Products, Action=FetchById, ProductId=2, UserId=17
+2024-12-08T22:39:14.387+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-4] com.example.demo.ProductService          : Operation=WRITE, Entity=Products, Action=Delete, UserId=17
+2024-12-08T22:39:14.399+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-5] com.example.demo.ProductService          : Operation=READ, Entity=Products, Action=FetchAll, UserId=17
+2024-12-08T22:39:22.033+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-6] com.example.demo.ProductService          : Operation=WRITE, Entity=Products, Action=Delete, UserId=17
+2024-12-08T22:39:22.044+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-7] com.example.demo.ProductService          : Operation=READ, Entity=Products, Action=FetchAll, UserId=17
+2024-12-08T22:39:25.906+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-8] com.example.demo.ProductService          : Operation=WRITE, Entity=Products, Action=Delete, UserId=17
+2024-12-08T22:39:25.919+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-9] com.example.demo.ProductService          : Operation=READ, Entity=Products, Action=FetchAll, UserId=17
+2024-12-08T22:39:29.665+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-10] com.example.demo.ProductService          : Operation=WRITE, Entity=Products, Action=Delete, UserId=17
+2024-12-08T22:39:29.674+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-2] com.example.demo.ProductService          : Operation=READ, Entity=Products, Action=FetchAll, UserId=17
+2024-12-08T22:39:33.038+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-1] com.example.demo.ProductService          : Operation=WRITE, Entity=Products, Action=Delete, UserId=17
+2024-12-08T22:39:33.049+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-3] com.example.demo.ProductService          : Operation=READ, Entity=Products, Action=FetchAll, UserId=17
+2024-12-08T22:39:51.199+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-5] com.example.demo.ProductService          : Operation=WRITE, Entity=Products, Action=Add, ProductId=3232, UserId=17
+2024-12-08T22:39:51.210+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-6] com.example.demo.ProductService          : Operation=READ, Entity=Products, Action=FetchAll, UserId=17
+2024-12-08T22:40:01.110+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-8] com.example.demo.ProductService          : Operation=WRITE, Entity=Products, Action=Add, ProductId=32323232, UserId=17
+2024-12-08T22:40:01.121+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-9] com.example.demo.ProductService          : Operation=READ, Entity=Products, Action=FetchAll, UserId=17
+2024-12-08T22:40:12.476+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-2] com.example.demo.ProductService          : Operation=WRITE, Entity=Products, Action=Add, ProductId=3333333333333, UserId=17
+2024-12-08T22:40:12.489+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-1] com.example.demo.ProductService          : Operation=READ, Entity=Products, Action=FetchAll, UserId=17
+2024-12-08T22:40:25.821+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-4] com.example.demo.ProductService          : Operation=WRITE, Entity=Products, Action=Add, ProductId=11121, UserId=17
+2024-12-08T22:40:25.841+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-5] com.example.demo.ProductService          : Operation=READ, Entity=Products, Action=FetchAll, UserId=17
+2024-12-08T22:40:34.728+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-6] com.example.demo.ProductService          : Operation=SEARCH, Entity=Products, Action=FetchById, ProductId=1, UserId=17
+2024-12-08T22:40:44.234+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-7] com.example.demo.ProductService          : Operation=READ, Entity=Products, Action=Fetch, ProductId=1, UserId=17
+2024-12-08T22:40:44.234+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-7] com.example.demo.ProductService          : Operation=WRITE, Entity=Products, Action=Update, UserId=17
+2024-12-08T22:40:44.245+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-8] com.example.demo.ProductService          : Operation=READ, Entity=Products, Action=FetchAll, UserId=17
+2024-12-08T22:40:48.109+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-9] com.example.demo.ProductService          : Operation=SEARCH, Entity=Products, Action=FetchById, ProductId=1, UserId=17
+2024-12-08T22:40:56.981+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-10] com.example.demo.ProductService          : Operation=READ, Entity=Products, Action=Fetch, ProductId=1, UserId=17
+2024-12-08T22:40:56.981+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-10] com.example.demo.ProductService          : Operation=WRITE, Entity=Products, Action=Update, UserId=17
+2024-12-08T22:40:57.001+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-2] com.example.demo.ProductService          : Operation=READ, Entity=Products, Action=FetchAll, UserId=17
+2024-12-08T22:40:58.793+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-1] com.example.demo.ProductService          : Operation=SEARCH, Entity=Products, Action=FetchById, ProductId=1, UserId=17
+2024-12-08T22:41:05.044+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-3] com.example.demo.ProductService          : Operation=READ, Entity=Products, Action=Fetch, ProductId=1, UserId=17
+2024-12-08T22:41:05.045+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-3] com.example.demo.ProductService          : Operation=WRITE, Entity=Products, Action=Update, UserId=17
+2024-12-08T22:41:05.061+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-4] com.example.demo.ProductService          : Operation=READ, Entity=Products, Action=FetchAll, UserId=17
+2024-12-08T22:41:20.656+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-8] com.example.demo.ProductService          : Operation=READ, Entity=Products, Action=FetchAll, UserId=18
+2024-12-08T22:41:49.746+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-10] com.example.demo.ProductService          : Operation=WRITE, Entity=Products, Action=Add, ProductId=987, UserId=18
+2024-12-08T22:41:49.756+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-2] com.example.demo.ProductService          : Operation=READ, Entity=Products, Action=FetchAll, UserId=18
+2024-12-08T22:42:01.162+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-3] com.example.demo.ProductService          : Operation=WRITE, Entity=Products, Action=Add, ProductId=8765, UserId=18
+2024-12-08T22:42:01.173+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-4] com.example.demo.ProductService          : Operation=READ, Entity=Products, Action=FetchAll, UserId=18
+2024-12-08T22:42:23.772+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-6] com.example.demo.ProductService          : Operation=WRITE, Entity=Products, Action=Add, ProductId=9877654, UserId=18
+2024-12-08T22:42:23.783+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-7] com.example.demo.ProductService          : Operation=READ, Entity=Products, Action=FetchAll, UserId=18
+2024-12-08T22:42:36.201+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-9] com.example.demo.ProductService          : Operation=WRITE, Entity=Products, Action=Add, ProductId=765433456, UserId=18
+2024-12-08T22:42:36.212+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-10] com.example.demo.ProductService          : Operation=READ, Entity=Products, Action=FetchAll, UserId=18
+2024-12-08T22:42:51.705+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-1] com.example.demo.ProductService          : Operation=WRITE, Entity=Products, Action=Add, ProductId=7654, UserId=18
+2024-12-08T22:42:51.715+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-3] com.example.demo.ProductService          : Operation=READ, Entity=Products, Action=FetchAll, UserId=18
+2024-12-08T22:43:11.110+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-5] com.example.demo.ProductService          : Operation=WRITE, Entity=Products, Action=Add, ProductId=5672, UserId=18
+2024-12-08T22:43:11.122+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-6] com.example.demo.ProductService          : Operation=READ, Entity=Products, Action=FetchAll, UserId=18
+2024-12-08T22:43:32.416+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-7] com.example.demo.ProductService          : Operation=SEARCH, Entity=Products, Action=FetchById, ProductId=1, UserId=18
+2024-12-08T22:43:34.762+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-8] com.example.demo.ProductService          : Operation=SEARCH, Entity=Products, Action=FetchById, ProductId=2, UserId=18
+2024-12-08T22:43:37.296+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-9] com.example.demo.ProductService          : Operation=SEARCH, Entity=Products, Action=FetchById, ProductId=3, UserId=18
+2024-12-08T22:43:39.794+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-10] com.example.demo.ProductService          : Operation=SEARCH, Entity=Products, Action=FetchById, ProductId=4, UserId=18
+2024-12-08T22:43:45.594+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-2] com.example.demo.ProductService          : Operation=SEARCH, Entity=Products, Action=FetchById, ProductId=96, UserId=18
+2024-12-08T22:43:50.002+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-1] com.example.demo.ProductService          : Operation=SEARCH, Entity=Products, Action=FetchById, ProductId=99, UserId=18
+2024-12-08T22:43:51.937+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-3] com.example.demo.ProductService          : Operation=SEARCH, Entity=Products, Action=FetchById, ProductId=98, UserId=18
+2024-12-08T22:44:01.658+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-4] com.example.demo.ProductService          : Operation=SEARCH, Entity=Products, Action=FetchById, ProductId=1, UserId=18
+2024-12-08T22:44:08.709+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-5] com.example.demo.ProductService          : Operation=READ, Entity=Products, Action=Fetch, ProductId=1, UserId=18
+2024-12-08T22:44:08.710+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-5] com.example.demo.ProductService          : Operation=WRITE, Entity=Products, Action=Update, UserId=18
+2024-12-08T22:44:08.721+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-6] com.example.demo.ProductService          : Operation=READ, Entity=Products, Action=FetchAll, UserId=18
+2024-12-08T22:44:10.641+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-7] com.example.demo.ProductService          : Operation=SEARCH, Entity=Products, Action=FetchById, ProductId=2, UserId=18
+2024-12-08T22:44:17.559+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-8] com.example.demo.ProductService          : Operation=READ, Entity=Products, Action=Fetch, ProductId=2, UserId=18
+2024-12-08T22:44:17.559+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-8] com.example.demo.ProductService          : Operation=WRITE, Entity=Products, Action=Update, UserId=18
+2024-12-08T22:44:17.569+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-9] com.example.demo.ProductService          : Operation=READ, Entity=Products, Action=FetchAll, UserId=18
+2024-12-08T22:44:21.386+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-10] com.example.demo.ProductService          : Operation=SEARCH, Entity=Products, Action=FetchById, ProductId=3, UserId=18
+2024-12-08T22:44:32.939+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-2] com.example.demo.ProductService          : Operation=READ, Entity=Products, Action=Fetch, ProductId=3, UserId=18
+2024-12-08T22:44:32.939+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-2] com.example.demo.ProductService          : Operation=WRITE, Entity=Products, Action=Update, UserId=18
+2024-12-08T22:44:32.949+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-1] com.example.demo.ProductService          : Operation=READ, Entity=Products, Action=FetchAll, UserId=18
+2024-12-08T22:44:40.433+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-3] com.example.demo.ProductService          : Operation=SEARCH, Entity=Products, Action=FetchById, ProductId=96, UserId=18
+2024-12-08T22:44:53.346+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-4] com.example.demo.ProductService          : Operation=READ, Entity=Products, Action=Fetch, ProductId=96, UserId=18
+2024-12-08T22:44:53.346+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-4] com.example.demo.ProductService          : Operation=WRITE, Entity=Products, Action=Update, UserId=18
+2024-12-08T22:44:53.355+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-5] com.example.demo.ProductService          : Operation=READ, Entity=Products, Action=FetchAll, UserId=18
+2024-12-08T22:45:14.150+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-9] com.example.demo.ProductService          : Operation=READ, Entity=Products, Action=FetchAll, UserId=19
+2024-12-08T22:45:20.361+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-10] com.example.demo.ProductService          : Operation=WRITE, Entity=Products, Action=Delete, UserId=19
+2024-12-08T22:45:20.373+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-2] com.example.demo.ProductService          : Operation=READ, Entity=Products, Action=FetchAll, UserId=19
+2024-12-08T22:45:28.066+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-1] com.example.demo.ProductService          : Operation=WRITE, Entity=Products, Action=Delete, UserId=19
+2024-12-08T22:45:28.075+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-3] com.example.demo.ProductService          : Operation=READ, Entity=Products, Action=FetchAll, UserId=19
+2024-12-08T22:45:37.915+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-4] com.example.demo.ProductService          : Operation=WRITE, Entity=Products, Action=Delete, UserId=19
+2024-12-08T22:45:37.926+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-5] com.example.demo.ProductService          : Operation=READ, Entity=Products, Action=FetchAll, UserId=19
+2024-12-08T22:45:41.532+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-6] com.example.demo.ProductService          : Operation=WRITE, Entity=Products, Action=Delete, UserId=19
+2024-12-08T22:45:41.543+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-7] com.example.demo.ProductService          : Operation=READ, Entity=Products, Action=FetchAll, UserId=19
+2024-12-08T22:45:45.242+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-8] com.example.demo.ProductService          : Operation=WRITE, Entity=Products, Action=Delete, UserId=19
+2024-12-08T22:45:45.252+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-9] com.example.demo.ProductService          : Operation=READ, Entity=Products, Action=FetchAll, UserId=19
+2024-12-08T22:45:48.975+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-10] com.example.demo.ProductService          : Operation=WRITE, Entity=Products, Action=Delete, UserId=19
+2024-12-08T22:45:48.984+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-2] com.example.demo.ProductService          : Operation=READ, Entity=Products, Action=FetchAll, UserId=19
+2024-12-08T22:45:53.233+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-1] com.example.demo.ProductService          : Operation=WRITE, Entity=Products, Action=Delete, UserId=19
+2024-12-08T22:45:53.243+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-3] com.example.demo.ProductService          : Operation=READ, Entity=Products, Action=FetchAll, UserId=19
+2024-12-08T22:45:56.347+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-4] com.example.demo.ProductService          : Operation=WRITE, Entity=Products, Action=Delete, UserId=19
+2024-12-08T22:45:56.359+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-5] com.example.demo.ProductService          : Operation=READ, Entity=Products, Action=FetchAll, UserId=19
+2024-12-08T22:45:59.954+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-6] com.example.demo.ProductService          : Operation=WRITE, Entity=Products, Action=Delete, UserId=19
+2024-12-08T22:45:59.964+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-7] com.example.demo.ProductService          : Operation=READ, Entity=Products, Action=FetchAll, UserId=19
+2024-12-08T22:46:03.236+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-8] com.example.demo.ProductService          : Operation=WRITE, Entity=Products, Action=Delete, UserId=19
+2024-12-08T22:46:03.246+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-9] com.example.demo.ProductService          : Operation=READ, Entity=Products, Action=FetchAll, UserId=19
+2024-12-08T22:46:27.138+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-10] com.example.demo.ProductService          : Operation=SEARCH, Entity=Products, Action=FetchById, ProductId=1, UserId=19
+2024-12-08T22:46:30.033+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-2] com.example.demo.ProductService          : Operation=SEARCH, Entity=Products, Action=FetchById, ProductId=2, UserId=19
+2024-12-08T22:46:32.969+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-1] com.example.demo.ProductService          : Operation=SEARCH, Entity=Products, Action=FetchById, ProductId=3, UserId=19
+2024-12-08T22:46:37.570+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-3] com.example.demo.ProductService          : Operation=SEARCH, Entity=Products, Action=FetchById, ProductId=100, UserId=19
+2024-12-08T22:46:41.912+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-4] com.example.demo.ProductService          : Operation=SEARCH, Entity=Products, Action=FetchById, ProductId=222, UserId=19
+2024-12-08T22:46:48.794+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-5] com.example.demo.ProductService          : Operation=SEARCH, Entity=Products, Action=FetchById, ProductId=95, UserId=19
+2024-12-08T22:46:56.352+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-6] com.example.demo.ProductService          : Operation=SEARCH, Entity=Products, Action=FetchById, ProductId=98, UserId=19
+2024-12-08T22:47:02.870+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-7] com.example.demo.ProductService          : Operation=SEARCH, Entity=Products, Action=FetchById, ProductId=95, UserId=19
+2024-12-08T22:47:29.018+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-2] com.example.demo.ProductService          : Operation=READ, Entity=Products, Action=FetchAll, UserId=20
+2024-12-08T22:47:39.130+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-1] com.example.demo.ProductService          : Operation=SEARCH, Entity=Products, Action=FetchById, ProductId=222, UserId=20
+2024-12-08T22:47:45.218+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-3] com.example.demo.ProductService          : Operation=SEARCH, Entity=Products, Action=FetchById, ProductId=95, UserId=20
+2024-12-08T22:47:51.739+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-4] com.example.demo.ProductService          : Operation=SEARCH, Entity=Products, Action=FetchById, ProductId=100, UserId=20
+2024-12-08T22:47:59.059+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-5] com.example.demo.ProductService          : Operation=SEARCH, Entity=Products, Action=FetchById, ProductId=96, UserId=20
+2024-12-08T22:48:05.539+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-6] com.example.demo.ProductService          : Operation=SEARCH, Entity=Products, Action=FetchById, ProductId=77, UserId=20
+2024-12-08T22:48:14.422+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-7] com.example.demo.ProductService          : Operation=WRITE, Entity=Products, Action=Delete, UserId=20
+2024-12-08T22:48:14.432+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-8] com.example.demo.ProductService          : Operation=READ, Entity=Products, Action=FetchAll, UserId=20
+2024-12-08T22:48:17.657+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-9] com.example.demo.ProductService          : Operation=WRITE, Entity=Products, Action=Delete, UserId=20
+2024-12-08T22:48:17.666+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-10] com.example.demo.ProductService          : Operation=READ, Entity=Products, Action=FetchAll, UserId=20
+2024-12-08T22:48:22.591+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-2] com.example.demo.ProductService          : Operation=WRITE, Entity=Products, Action=Delete, UserId=20
+2024-12-08T22:48:22.603+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-1] com.example.demo.ProductService          : Operation=READ, Entity=Products, Action=FetchAll, UserId=20
+2024-12-08T22:48:39.713+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-3] com.example.demo.ProductService          : Operation=SEARCH, Entity=Products, Action=FetchById, ProductId=95, UserId=20
+2024-12-08T22:48:52.634+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-4] com.example.demo.ProductService          : Operation=READ, Entity=Products, Action=Fetch, ProductId=95, UserId=20
+2024-12-08T22:48:52.634+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-4] com.example.demo.ProductService          : Operation=WRITE, Entity=Products, Action=Update, UserId=20
+2024-12-08T22:48:52.645+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-5] com.example.demo.ProductService          : Operation=READ, Entity=Products, Action=FetchAll, UserId=20
+2024-12-08T22:49:00.530+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-6] com.example.demo.ProductService          : Operation=SEARCH, Entity=Products, Action=FetchById, ProductId=95, UserId=20
+2024-12-08T22:49:06.064+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-7] com.example.demo.ProductService          : Operation=READ, Entity=Products, Action=Fetch, ProductId=95, UserId=20
+2024-12-08T22:49:06.064+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-7] com.example.demo.ProductService          : Operation=WRITE, Entity=Products, Action=Update, UserId=20
+2024-12-08T22:49:06.074+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-8] com.example.demo.ProductService          : Operation=READ, Entity=Products, Action=FetchAll, UserId=20
+2024-12-08T22:49:10.463+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-9] com.example.demo.ProductService          : Operation=SEARCH, Entity=Products, Action=FetchById, ProductId=95, UserId=20
+2024-12-08T22:49:18.145+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-10] com.example.demo.ProductService          : Operation=READ, Entity=Products, Action=Fetch, ProductId=95, UserId=20
+2024-12-08T22:49:18.145+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-10] com.example.demo.ProductService          : Operation=WRITE, Entity=Products, Action=Update, UserId=20
+2024-12-08T22:49:18.158+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-2] com.example.demo.ProductService          : Operation=READ, Entity=Products, Action=FetchAll, UserId=20
+2024-12-08T22:49:36.808+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-3] com.example.demo.ProductService          : Operation=WRITE, Entity=Products, Action=Add, ProductId=4, UserId=20
+2024-12-08T22:49:36.821+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-4] com.example.demo.ProductService          : Operation=READ, Entity=Products, Action=FetchAll, UserId=20
+2024-12-08T22:49:53.552+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-6] com.example.demo.ProductService          : Operation=WRITE, Entity=Products, Action=Add, ProductId=5, UserId=20
+2024-12-08T22:49:53.564+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-7] com.example.demo.ProductService          : Operation=READ, Entity=Products, Action=FetchAll, UserId=20
+2024-12-08T22:50:21.065+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-9] com.example.demo.ProductService          : Operation=WRITE, Entity=Products, Action=Add, ProductId=6, UserId=20
+2024-12-08T22:50:21.078+01:00  INFO 10592 --- [demo] [http-nio-8000-exec-10] com.example.demo.ProductService          : Operation=READ, Entity=Products, Action=FetchAll, UserId=20
+2024-12-08T22:51:19.225+01:00  INFO 10592 --- [demo] [RMI TCP Connection(35)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2024-12-08T22:51:19.236+01:00  INFO 10592 --- [demo] [RMI TCP Connection(35)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-08T22:51:19.238+01:00  INFO 10592 --- [demo] [RMI TCP Connection(35)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-12-08T22:51:19.240+01:00  INFO 10592 --- [demo] [RMI TCP Connection(35)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
