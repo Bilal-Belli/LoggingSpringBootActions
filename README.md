@@ -1,4 +1,4 @@
-# Practical Exercise: Logging and Software Observability
+# Practical: Logging and Software Observability (SpringBoot - PostgreSQL)
 
 > Logging is an essential technique in computer science that allows tracking events and actions performed within a system. It facilitates monitoring, debugging, and analyzing application behaviors.
 
